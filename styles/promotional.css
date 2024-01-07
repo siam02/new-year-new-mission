@@ -21,6 +21,7 @@ body {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 16px;
 }
 
 .btn-primary {
@@ -45,6 +46,7 @@ body {
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
+    margin-bottom: 22px;
 }
 
 .section-description {
@@ -116,7 +118,6 @@ main section {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 48px;
-    margin-top: 16px;
 }
 
 /* Party Section Styles */
@@ -226,16 +227,16 @@ main section {
 
 .holiday-sale .section-title{
     color: #070211;
-    margin-bottom: 16px;
 }
 
 .holiday-sale .section-heading{
+    margin-bottom: 28px;
     font-size: 72px;
-    margin-bottom: 23px;
 }
 
 .holiday-sale .section-description{
-    width: 1000px;
+    max-width: 1000px;
+    width: 75.76%;
     margin: 0 auto;
     margin-bottom: 64px;
 }
@@ -267,3 +268,26 @@ main section {
     right: 16rem;
 }
 
+/* Portfolio Secton Style */
+
+.portfolio-text-container{
+    max-width: 896px;
+    width: 67.87%;
+    margin-bottom: 48px;
+}
+
+.portfolio-item-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio-item img{
+    border-radius: 16px;
+    transition: all 0.2s ease;
+}
+
+.portfolio-item img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
