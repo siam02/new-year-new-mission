@@ -376,3 +376,13 @@ footer hr{
 .contact-col{
     width: 375px;
 }
+
+/* Footer Social Section */
+
+.social{
+    margin: 48px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
