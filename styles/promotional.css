@@ -386,3 +386,11 @@ footer hr{
     justify-content: center;
     gap: 24px;
 }
+
+/* Footer Copyright Section */
+
+.copyright{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
