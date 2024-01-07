@@ -36,8 +36,15 @@ body {
     cursor: pointer;
 }
 
-.highlight-text{
+.highlight-text {
     color: #F00;
+}
+
+.section-heading {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
 }
 
 /* Header Section styles */
@@ -112,7 +119,7 @@ main section {
     padding: 70px;
     border-radius: 16px;
     display: flex;
-    
+
 }
 
 .party-text-container {
@@ -137,7 +144,7 @@ main section {
     margin-bottom: 32px;
 }
 
-.party-btn{
+.party-btn {
     background-color: unset;
 }
 
@@ -145,24 +152,64 @@ main section {
     width: 100%;
 }
 
- /* Party time Section Style */
+/* Party time Section Style */
 
- .party-time{
+.party-time {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     border-radius: 16px;
     padding: 100px 380px;
     text-align: center;
- }
+}
 
- .party-time-info-container{
+.party-time-info-container {
     margin-bottom: 48px;
- }
+}
 
- .party-time-info{
+.party-time-info {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
- }
+}
+
+/* Comming Soon Section Style */
+
+.comming-soon {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.comming-soon h3{
+    margin-bottom: 16px;
+}
+
+.comming-soon-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+    width: 390px;
+}
+
+.comming-soon-img-container{
+    border: 15px solid #F00;
+    padding: 35px;
+    border-radius: 100%;
+}
+
+.comming-soon-year{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.comming-soon .new-year-img{
+    margin-top: 43px;
+}
