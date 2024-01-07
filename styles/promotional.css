@@ -154,7 +154,7 @@ main section {
     margin-bottom: 32px;
 }
 
-.party-btn {
+.party .btn-primary {
     background-color: unset;
 }
 
